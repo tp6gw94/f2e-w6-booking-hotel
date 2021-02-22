@@ -1,0 +1,128 @@
+.img-block {
+  height: 600px;
+  @apply grid grid-cols-5 grid-rows-2 shadow-md;
+}
+
+.logo {
+  width: 150px;
+  height: 43px;
+  @apply absolute top-10 left-10 border border-black cursor-pointer;
+}
+
+.logo span {
+  padding: 2px 7px 9px 17px;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -16px;
+  height: 8px;
+  width: 134px;
+  background-image: linear-gradient(
+    45deg,
+    #000000 14.29%,
+    transparent 14.29%,
+    transparent 50%,
+    #000000 50%,
+    #000000 64.29%,
+    transparent 64.29%,
+    transparent 100%
+  );
+  background-size: 9.9px 9.9px;
+}
+
+.logo::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: -16px;
+  height: 35px;
+  width: 16px;
+  background-image: linear-gradient(
+    45deg,
+    #000000 14.29%,
+    transparent 14.29%,
+    transparent 50%,
+    #000000 50%,
+    #000000 64.29%,
+    transparent 64.29%,
+    transparent 100%
+  );
+  background-size: 9.9px 9.9px;
+}
+
+.backslash {
+  transform: rotate(145deg);
+  @apply w-px h-3 bg-black mr-6;
+}
+
+.reserved {
+  background-image: linear-gradient(
+    45deg,
+    #000000 16.67%,
+    transparent 16.67%,
+    transparent 50%,
+    #000000 50%,
+    #000000 66.67%,
+    transparent 66.67%,
+    transparent 100%
+  );
+  background-size: 4.24px 4.24px;
+  width: 100%;
+}
+
+.booking-btn {
+  background-color: #575757;
+  width: 118px;
+  height: 53px;
+  @apply text-base font-light text-white mt-6 p-4 relative focus:outline-none;
+}
+
+.booking-btn::before {
+  content: '';
+  width: 9px;
+  height: 49px;
+  display: block;
+  position: absolute;
+  right: -9px;
+  top: 4px;
+  background-image: linear-gradient(
+    45deg,
+    #000000 16.67%,
+    transparent 16.67%,
+    transparent 50%,
+    #000000 50%,
+    #000000 66.67%,
+    transparent 66.67%,
+    transparent 100%
+  );
+  background-size: 4.24px 4.24px;
+}
+
+.booking-btn::after {
+  content: '';
+  width: 118px;
+  height: 9px;
+  display: block;
+  position: absolute;
+  right: -9px;
+  bottom: -9px;
+  background-image: linear-gradient(
+    45deg,
+    #000000 16.67%,
+    transparent 16.67%,
+    transparent 50%,
+    #000000 50%,
+    #000000 66.67%,
+    transparent 66.67%,
+    transparent 100%
+  );
+  background-size: 4.24px 4.24px;
+}
+
+.dialog {
+  width: 423px;
+  @apply bg-white opacity-100 z-50;
+}
