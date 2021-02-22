@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Amenities, Room, Booking } from '../lib/interfaceses';
+import { Amenities, Room, Booking } from '../lib/interface';
 import BookingCalendar from './BookingCalendar';
 import styles from '../styles/RoomInfo.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

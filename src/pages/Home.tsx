@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getRooms } from '../api';
-import { RoomItem } from '../lib/interfaceses';
+import { RoomItem } from '../lib/interface';
 import Hero from '../components/Hero';
 import Card from '../components/Card';
 import styles from '../styles/Home.module.css';

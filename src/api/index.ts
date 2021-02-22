@@ -1,5 +1,5 @@
 import axios, { AxiosError } from 'axios';
-import { RoomsRes, RoomInfoRes } from '../lib/interfaceses';
+import { RoomsRes, RoomInfoRes } from '../lib/interface';
 
 export const req = axios.create({
   baseURL: process.env.REACT_APP_BASE_API_URL,

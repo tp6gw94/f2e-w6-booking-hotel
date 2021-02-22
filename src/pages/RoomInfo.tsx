@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { getRoomInfo } from '../api';
 import RoomImgBlock from '../components/RoomImgBlock';
 import RoomInformation from '../components/RoomInformation';
-import { RoomInfo } from '../lib/interfaceses';
+import { RoomInfo } from '../lib/interface';
 
 const RoomInfoPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();

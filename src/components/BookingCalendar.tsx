@@ -1,7 +1,7 @@
 import React, { ReactElement, useState } from 'react';
 import BookingForm from './BookingForm';
 import Dialog from './Dialog';
-import { Booking } from '../lib/interfaceses';
+import { Booking } from '../lib/interface';
 import {
   getMonth,
   getYear,
